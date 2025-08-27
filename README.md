@@ -198,8 +198,8 @@ La app incluye un `@RestControllerAdvice` para respuestas de error uniformes. Ej
 }
 ```
 
-En el caso de que se encuentre un campo nulo o vacío va a arrojar una excepción controlada identificando dicho campos 
-y arrojando una excepción controlada. Ejemplo ante regla de datos de entrada en el endpoint /api/customers para crear un 
+En el caso de que se encuentre un campo nulo o vacío se va a identificar dicho campo 
+y se arrojará una excepción controlada. Ejemplo ante regla de datos de entrada en el endpoint /api/customers para crear un 
 usuario <br> <br>
 ![Santander API](src/main/resources/docs/img/field_null_or_blank.png)
 
