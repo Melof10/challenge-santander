@@ -2,7 +2,7 @@
 
 API para challenge Banco Santander (clientes, cuentas, tarjetas y transacciones) construida con **Spring Boot 3**, **JPA/Hibernate**, **H2 en memoria** y **Swagger (springdoc-openapi)**.
 
-**Se puede ver un video de los diferentes casos de uso de la api en** `src/main/resources/docs/videos/use_cases_api.mp4`
+**Se puede ver un video de los diferentes casos de uso de la api en** `https://github.com/Melof10/challenge-santander/blob/src/main/resources/docs/videos/use_cases_api.mp4`
 
 > **Base URL:** `http://localhost:8080`  
 > **Endpoints API:** `http://localhost:8080/api/**`  
@@ -12,7 +12,7 @@ API para challenge Banco Santander (clientes, cuentas, tarjetas y transacciones)
 
 ---
 
-**La consigna se puede encontrar en** `src/main/resources/docs/ejercicio_practico_1_entrevistas 2.docx`
+**La consigna se puede encontrar en** `https://github.com/Melof10/challenge-santander/blob/src/main/resources/docs/ejercicio_practico_1_entrevistas 2.docx`
 
 ---
 
@@ -227,6 +227,7 @@ target/site/jacoco/index.html
 ```
 
 ![Reporte en jacoco](src/main/resources/docs/img/jacoco.png)
+![Reporte en jacoco service impl](src/main/resources/docs/img/jacoco_serviceImpl.png)
 ![Reporte en IDE](src/main/resources/docs/img/coverage_ide.png)
 
 ### Umbral de cobertura
