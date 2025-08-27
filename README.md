@@ -140,22 +140,6 @@ src/main/resources/docs/postman/Santander_Challenge.postman_collection.json
 
 ---
 
-## 🧪 Datos de prueba (opcional)
-
-Agregá `src/main/resources/data.sql` para insertar datos al inicio. Ejemplo:
-
-```sql
-INSERT INTO cliente (id_cliente, nombre, apellido, documento, email, telefono)
-VALUES (1, 'John', 'Doe', '12345678', 'john@example.com', '555-1234');
-
-INSERT INTO cuenta (id_cuenta, numero_cuenta, tipo_cuenta, saldo, fecha_apertura, id_cliente)
-VALUES (1, 'ACC-1001', 'SAVINGS', 1500.00, CURRENT_DATE, 1);
-```
-
-> Ajustá nombres de tablas/columnas si cambian tus anotaciones JPA.
-
----
-
 ## 🔌 Endpoints de ejemplo (cURL)
 
 ### Accounts
