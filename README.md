@@ -2,7 +2,7 @@
 
 API para challenge Banco Santander (clientes, cuentas, tarjetas y transacciones) construida con **Spring Boot 3**, **JPA/Hibernate**, **H2 en memoria** y **Swagger (springdoc-openapi)**.
 
-**Se puede ver un video de los diferentes casos de uso de la api en** `https://github.com/Melof10/challenge-santander/blob/src/main/resources/docs/videos/use_cases_api.mp4`
+**Se puede ver un video de los diferentes casos de uso de la api en** `src/main/resources/docs/videos/use_cases_api.mp4`
 
 > **Base URL:** `http://localhost:8080`  
 > **Endpoints API:** `http://localhost:8080/api/**`  
@@ -12,7 +12,7 @@ API para challenge Banco Santander (clientes, cuentas, tarjetas y transacciones)
 
 ---
 
-**La consigna se puede encontrar en** `https://github.com/Melof10/challenge-santander/blob/src/main/resources/docs/ejercicio_practico_1_entrevistas 2.docx`
+**La consigna se puede encontrar en** `src/main/resources/docs/ejercicio_practico_1_entrevistas 2.docx`
 
 ---
 
@@ -108,8 +108,6 @@ src/
 - **UI:** `http://localhost:8080/swagger-ui.html`  
 - **JSON OpenAPI:** `http://localhost:8080/v3/api-docs`
 
-> Si usás Spring Security, recordá permitir: `/v3/api-docs/**`, `/swagger-ui/**`, `/swagger-ui.html`.
-
 ---
 
 ## 🗄️ Ver H2 Console
@@ -201,7 +199,7 @@ La app incluye un `@RestControllerAdvice` para respuestas de error uniformes. Ej
 ```
 
 En el caso de que se encuentre un campo nulo o vacío va a arrojar una excepción controlada identificando dicho campos 
-y arojando una excepción controlada. Ejemplo ante regla de datos de entrada en el endpoint /api/customers para crear un 
+y arrojando una excepción controlada. Ejemplo ante regla de datos de entrada en el endpoint /api/customers para crear un 
 usuario <br> <br>
 ![Santander API](src/main/resources/docs/img/field_null_or_blank.png)
 
