@@ -97,8 +97,7 @@ src/
  │   │   └─ config                                      # Configs (Swagger, Security, etc.)
  │   └─ resources/
  │       ├─ application.properties
- │       └─ postman/
- │           └─ Santander.postman_collection.json
+ │       └─ docs/                                       # Toda la documentación relacionada a la API
  └─ test/...
 ```
 
